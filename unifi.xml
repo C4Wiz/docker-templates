@@ -2,21 +2,21 @@
 <Container version="2">
   <Name>Unifi</Name>
   <BaseImage>Debian:Stretch</BaseImage>
-  <Date>2018-05-04</Date>
-  <Repository>brettm357/unifi</Repository>
-  <Registry>https://hub.docker.com/r/brettm357/unifi</Registry>
+  <Date>2018-06-09</Date>
+  <Repository>spl147/unifi</Repository>
+  <Registry>https://hub.docker.com/r/spl147/unifi</Registry>
   <Network>host</Network>
   <Privileged>true</Privileged>
-  <Support>https://forums.lime-technology.com/topic/56178-support-brettm357-unifi</Support>
+  <Support></Support>
   <Project>https://www.ubnt.com</Project>
   <Overview>Use the UniFi Controller software to quickly configure and administer an enterprise Wi‐Fi network. RF map and performance features, real-time status, automatic UAP device detection, and advanced security options are all seamlessly integrated.</Overview>
   <Category>Network:Management Tools:</Category>
   <WebUI>https://[IP]:[PORT:8443]</WebUI>
-  <TemplateURL>https://github.com/brettm357/docker-templates/blob/master/unifi.xml</TemplateURL>
+  <TemplateURL>https://github.com/C4Wiz/docker-templates/blob/master/unifi.xml</TemplateURL>
   <Icon>https://dl.ubnt.com/press/Company_Logos/U_Logo/WEB/U_Logo_RGB.png</Icon>
   <ExtraParams/>
   <DateInstalled/>
-  <Description>UniFi Access Point Controller Software - version 5.9.4</Description>
+  <Description>UniFi Access Point Controller Software</Description>
   <Networking>
     <Mode>host</Mode>
     <Publish>
